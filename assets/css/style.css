@@ -4,6 +4,18 @@
 .netflix_logo {
   max-width: 8em;
 }
-.avatar {
+.avatar,
+.kids_icon {
   max-width: 3em;
+}
+.dropdown-item:hover {
+  background-color: #333;
+}
+.nav-link {
+  color: white;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #5d5d5d;
 }
