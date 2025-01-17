@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  </head>
+  <body class="netflix-bg">
+    <header>
+      <a class="navbar-brand" href="#"
+        ><img class="netflix_logo ms-0" src="./assets/img/netflix_logo.png" alt="Netflix Logo"
+      /></a>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <h1 class="h1 text-white">Edit Profile</h1>
+          <hr class="text-white" />
+          <div class="row">
+            <div class="col-4"><img class="w-75" src="./assets/img/avatar.png" alt="avatar" /></div>
+            <div class="col-8 bg text-white">
+              Strive Student
+              <div class="row">
+                <div class="col-12">
+                  <h3>Language:</h3>
+                  <div class="dropdown my-3">
+                    <button
+                      class="btn btn-dark bg-black text-white border border-white dropdown-toggle rounded-0"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      English
+                    </button>
+                    <ul class="dropdown-menu bg-black border">
+                      <li><a class="dropdown-item text-white" href="#">Italian</a></li>
+                      <li><a class="dropdown-item text-white" href="#">French</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Deutsch</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Spanish</a></li>
+                    </ul>
+                    <hr class="text-white" />
+                    <h3>Maturity Settings:</h3>
+                    <button>ALL MATURITY RATINGS</button>
+                    <p>Show titles of all maturity ratings for this profile.</p>
+                    <button>EDIT</button>
+                    <hr class="text-white" />
+                    <h3>Autoplay Controls</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
