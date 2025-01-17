@@ -19,3 +19,31 @@
 .nav-link:hover {
   color: #5d5d5d;
 }
+
+input.form-control {
+  background-color: #141414;
+  color: #fff;
+}
+
+input.form-control:focus {
+  background-color: #424242;
+  color: #fff;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.movie-cover img {
+  transition: transform 0.3s ease;
+}
+
+.movie-cover img:hover {
+  transform: scale(1.2);
+}
+.carousel-control-prev {
+  left: -8em;
+}
+.carousel-control-next {
+  right: -8em;
+}
