@@ -59,3 +59,14 @@ footer p {
 footer a:hover {
   color: #fff;
 }
+.userbutton {
+  text-decoration: none;
+  color: #5d5d5d;
+  transition: background-color 0.3s ease;
+}
+
+.userbutton:hover {
+  background: white;
+  color: #141414;
+  cursor: pointer;
+}

@@ -31,31 +31,47 @@
               <div class="row">
                 <div class="col-12">
                   <h3>Language:</h3>
-                  <div class="dropdown my-3">
-                    <button
-                      class="btn btn-dark bg-black text-white border border-white dropdown-toggle rounded-0"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      English
-                    </button>
-                    <ul class="dropdown-menu bg-black border">
-                      <li><a class="dropdown-item text-white" href="#">Italian</a></li>
-                      <li><a class="dropdown-item text-white" href="#">French</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Deutsch</a></li>
-                      <li><a class="dropdown-item text-white" href="#">Spanish</a></li>
-                    </ul>
-                    <hr class="text-white" />
-                    <h3>Maturity Settings:</h3>
-                    <button>ALL MATURITY RATINGS</button>
-                    <p>Show titles of all maturity ratings for this profile.</p>
-                    <button>EDIT</button>
-                    <hr class="text-white" />
-                    <h3>Autoplay Controls</h3>
+                  <div class="form-group">
+                    <select class="form-select bg-black border border-1 rounded-0 text-white w-25">
+                      <option selected>English</option>
+                      <option>Italian</option>
+                      <option>Deutsch</option>
+                      <option>French</option>
+                    </select>
+                  </div>
+                  <hr class="text-white" />
+                  <h3>Maturity Settings:</h3>
+                  <button class="text-white bg-dark my-2">ALL MATURITY RATINGS</button>
+                  <p>Show titles of all maturity ratings for this profile.</p>
+                  <div class="border w-25 text-center text-secondary border-secondary userbutton">EDIT</div>
+                  <hr class="text-white" />
+                  <h3>Autoplay Controls</h3>
+                  <div class="autoplay-controls">
+                    <label class="checkbox-container">
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                      Autoplay next episode in a series on all devices.
+                    </label>
+                    <label class="checkbox-container">
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                      Autoplay previews while browsing on all devices.
+                    </label>
                   </div>
                 </div>
               </div>
+            </div>
+            <hr class="text-white my-3" />
+          </div>
+          <div class="row gap-1">
+            <div class="userbutton col-3 border border-secondary text-secondary text-center">
+              <a class="userbutton" href="#">SAVE</a>
+            </div>
+            <div class="userbutton col-4 border border-secondary text-secondary text-center">
+              <a class="userbutton" href="#">CANCEL</a>
+            </div>
+            <div class="userbutton col-4 border border-secondary text-secondary text-center">
+              <a class="userbutton" href="#">DELETE PROFILE</a>
             </div>
           </div>
         </div>
