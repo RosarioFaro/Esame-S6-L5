@@ -14,79 +14,103 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
   </head>
   <body class="netflix-bg">
-    <nav class="navbar navbar-expand-lg netflix-bg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="netflix_logo" src="./assets/img/netflix_logo.png" alt="Netflix Logo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tv Shows</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Movies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Recently Added</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My List</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input type="text" class="form-control" placeholder="Cerca..." aria-label="Search" />
-            <button class="btn btn-border-none" type="button" aria-label="Search">
-              <i class="bi bi-search text-white"></i>
-            </button>
-          </form>
-          <div class="userNav d-flex align-items-center gap-3">
-            <a class="text-decoration-none text-white" href="#">KIDS</a>
-            <a href="#"><i class="bi bi-bell-fill text-white h4"></i></a>
-            <button
-              class="btn text-white dropdown-toggle rounded-0"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <img class="avatar" src="./assets/img/avatar.png" alt="avatar" />
-            </button>
-            <ul class="dropdown-menu netflix-bg dropdown-menu-end me-2 border">
-              <li>
-                <a class="dropdown-item text-white" href="#"><i class="bi bi-pencil"></i> Manage Profiles</a>
+    <header>
+      <nav class="navbar navbar-expand-lg netflix-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img class="netflix_logo ms-0" src="./assets/img/netflix_logo.png" alt="Netflix Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#"
-                  ><i class="bi bi-person-bounding-box"></i> Transfer Profile</a
-                >
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tv Shows</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#"><i class="bi bi-person"></i> Account</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#"><i class="bi bi-question-circle"></i> Help Center</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recently Added</a>
               </li>
-              <hr class="text-secondary" />
-              <li class="text-center"><a class="dropdown-item text-white" href="#">Sign out of Netflix</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My List</a>
+              </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input type="text" class="form-control" placeholder="Cerca..." aria-label="Search" />
+              <button class="btn btn-border-none" type="button" aria-label="Search">
+                <i class="bi bi-search text-white"></i>
+              </button>
+            </form>
+            <div class="userNav d-flex align-items-center gap-3">
+              <a class="text-decoration-none text-white" href="#">KIDS</a>
+              <a href="#"><i class="bi bi-bell-fill text-white h4"></i></a>
+              <button
+                class="btn text-white dropdown-toggle rounded-0"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img class="avatar" src="./assets/img/avatar.png" alt="avatar" />
+              </button>
+              <ul class="dropdown-menu netflix-bg dropdown-menu-end me-2 border">
+                <li>
+                  <a class="dropdown-item text-white" href="#"><i class="bi bi-pencil"></i> Manage Profiles</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    ><i class="bi bi-person-bounding-box"></i> Transfer Profile</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"><i class="bi bi-person"></i> Account</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"><i class="bi bi-question-circle"></i> Help Center</a>
+                </li>
+                <hr class="text-secondary" />
+                <li class="text-center"><a class="dropdown-item text-white" href="#">Sign out of Netflix</a></li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
+    <main class="mx-4">
+      <section class="d-flex align-items-center">
+        <div class="h1 text-white my-5">TV Shows</div>
+        <div class="dropdown mx-4">
+          <button
+            class="btn btn-dark bg-black text-white border border-white dropdown-toggle rounded-0"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Genres
+          </button>
+          <ul class="dropdown-menu bg-black border">
+            <li><a class="dropdown-item text-white" href="#">Action</a></li>
+            <li><a class="dropdown-item text-white" href="#">Anime</a></li>
+            <li><a class="dropdown-item text-white" href="#">Comedy</a></li>
+            <li><a class="dropdown-item text-white" href="#">Crime</a></li>
+            <li><a class="dropdown-item text-white" href="#">Thriller</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
